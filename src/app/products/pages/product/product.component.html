@@ -1,2 +1,21 @@
-<p>product works!</p>
-<products-price />
+<h1><span class="badge bg-secondary">Product works!</span></h1>
+
+<products-price
+*ngIf="isProductVisible"
+[price]="currentPrice"
+/>
+<button
+  (click)="isProductVisible = !isProductVisible"
+  type="button"
+  class="btn btn-info btn-lg m-2"
+>
+  Toogle
+</button>
+
+<button
+  (click)="inCreasePrice()"
+  type="button"
+  class="btn btn-warning btn-lg "
+>
+  Price
+</button>
