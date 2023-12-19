@@ -19,12 +19,8 @@ Ejecutar `ng serve` ó `ng s -o`para un servidor de desarrollo. Navegue a `http:
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## 🧩 Resumen de lo que he aprendido en esta sección
-El objetivo de la sección básicamente es aprender a reaccionar cuando información de un formulario cambia, en este caso haremos:
 
- 1. ### Selectores anidados
+### Esta sección está enfocada en hablar y explicar todos los pasos del ciclo de vida de un componente (también se aplican a las directivas que veremos después).
 
- 2. ### Llenar selectores desde peticiones HTTP
+### También estos pasos, son conocidos como Hooks, que posiblemente haz escuchado en React, pero funcionan diferente, pero comparten la similitud de que son Métodos (o funciones) que se ejecutan cuando algo sucede en un componente.
 
- 3. ### Encadenamiento de operadores de RXJS
-
- 4. ### Explicar el por qué la gente dice que TypeScript no es del todo "Type Safe"
